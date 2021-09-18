@@ -5,9 +5,8 @@
 
 - 🤔 &nbsp; Explorando novas tecnologias e desenvolvendo soluções de software.
 - 🎓 &nbsp; Mestre em **GEOFÍSICA APLICADA** pela <a href="[link da sua faculdade](https://www.ufba.br)">UFBA</a>.
-- 💼 &nbsp; Trabalhando como **DESENVOLVEDOR FULL CYCLE** na <a href="vintem.tech">VINTEM.TECH</a>
+- 💼 &nbsp; Trabalhando como **DESENVOLVEDOR FULL CYCLE** na <a href="https://vintem.tech">VINTEM.TECH</a>
 - 🌱 &nbsp; Aprendendo mais sobre **UI/UX, DATA SCIENCE**.
-
 <h3> :rocket: &nbsp;Minhas Skills </h3>
 
 **Aplicações e Dados**
