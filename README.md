@@ -130,7 +130,7 @@ I've tried to study more programming in order to follow this path. In
     src="https://github-readme-stats.vercel.app/api?username=marcusmello&theme=dracula&show_icons=true"
     /> </a> <br/>
 
-<h3> :earth_americas: &nbsp;Onde me encontrar: </h3> 
+<h3> :earth_americas: &nbsp; Where to find me: </h3> 
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marcusmello)
 [![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/marcusmello)
