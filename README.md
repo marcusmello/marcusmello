@@ -3,7 +3,7 @@
 
 <h3> :man: &nbsp;About me </h3>
 
-I worked as a [physics teacher](http://lattes.cnpq.br/9425842244368151)
+I worked as a [physics teacher](http://lattes.cnpq.br/9425842244368151){:target="_blank"}
 for 15 years, since 2002. Both during my graduation and during my
 master's, I had contact with programming (mostly Fortran).
 
