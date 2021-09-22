@@ -72,6 +72,7 @@ I've tried to study more programming in order to follow this path. In
 #### Proxy
 
   ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+  ![Ngrok](https://img.shields.io/badge/ngrok-%23323330.svg?style=for-the-badge&logo=ngrok&logoColor=white)
 
 ### Frontend and UI/UX
 
