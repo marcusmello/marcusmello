@@ -69,6 +69,10 @@ I've tried to study more programming in order to follow this path. In
   ![Couchbase](https://img.shields.io/badge/Couchbase-EA2328?style=for-the-badge&logo=couchbase&logoColor=white)
   ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 
+#### Proxy
+
+  ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+
 ### Frontend and UI/UX
 
   ![Bootstrap](https://img.shields.io/badge/bootstrap5-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
