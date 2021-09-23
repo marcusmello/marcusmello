@@ -7,9 +7,10 @@ I worked as a [physics teacher](http://lattes.cnpq.br/9425842244368151)
 for 15 years, since 2002. Both during the college and master degree
 course, I had contact with programming (mostly Fortran).
 
-In 2013 I got to know the "philosophy" of digital nomadism, since then
-I've tried to study more programming in order to follow this path. In
-2016, I decided to dedicate myself fully to this.
+In 2013 the digital nomadism "philosophy" came to me, since then I've
+tried to study more programming in order to achieve that such lifestyle.
+In 2016, I decided to dedicate myself fully to this.
+
 
 - 🎓 &nbsp; Graduated in **PHYSICS** by  <a
   href="https://www.ufba.br">UFBA</a>.
