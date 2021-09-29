@@ -216,7 +216,7 @@
     \end{tabular}
 
       % about me text
-      \profilesection{Sobre mim}{3.2cm}
+      \profilesection{Sobre mim}{2.8cm}
       \givenaboutme
 
       % skills with scale
