@@ -216,17 +216,21 @@
     \end{tabular}
 
       % about me text
-      \profilesection{About me}{3.2cm}
+      \profilesection{Sobre mim}{3.2cm}
       \givenaboutme
 
       % skills with scale
-      \profilesection{Skill}{5cm}
+      \profilesection{Hard Skills}{3cm}
+      \newline
       \givenskill
       \giventextskill
       \noindent
       \scriptsize
       \noindent
-      (*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
+      % (*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
+      \newline
+      \newline
+      (*)[A escala vai de 0 (Desconhecimento) a 6 (\textit{Expert}).]
 
     \end{flushleft}
   \end{textblock}
@@ -237,17 +241,10 @@
 % Section Color box %
 %%%%%%%%%%%%%%%%%%%%%
 \newcounter{colorCounter}
-\def\@sectioncolor#1#2#3{
-  {%
+
+\def\@sectioncolor#1{
   % Switch between blue and gray
-   \round{#1#2#3}{%
-      \ifodd\value{colorCounter}%
-        mainblue%
-      \else%
-        maingray%
-      \fi%
-    }%
-  }%
+   \round{#1}{mainblue}%
   \stepcounter{colorCounter}%
 }
 
