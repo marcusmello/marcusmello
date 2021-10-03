@@ -230,7 +230,7 @@
       % (*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
       \newline
       \newline
-      (*)[A escala vai de 0 (Desconhecimento) a 6 (\textit{Expert}).]
+      (*)[A escala vai de 0 (Desconhecimento) a 5 (\textit{Expert}).]
 
     \end{flushleft}
   \end{textblock}
