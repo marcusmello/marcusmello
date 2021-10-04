@@ -16,6 +16,9 @@
 
 \documentclass[letterpaper]{twentysecondcv} % a4paper for A4
 \usepackage{hyperref}
+\usepackage[strict]{changepage}
+\usepackage[brazil]{babel}
+
 %----------------------------------------------------------------------------------------
 %	 PERSONAL INFORMATION
 %----------------------------------------------------------------------------------------
@@ -25,18 +28,30 @@
 
 \profilepic{marcus.jpg} % Profile picture
 
-\cvname{Marcus Mello} % Your name
-
+\cvname{Marcus V. T. Mello} % Your name
+\vspace{0.5cm}
 \cvjobtitle{Programador Full Stack} % Job title/career
 
+%use \newline if more than 1 line is required
+
 \cvdate{07 dezembro 1983} % Date of birth
-\cvaddress{Bahia, Brasil} % Short address/location, use \newline if more
-						  % than 1 line is required
-\cvnumberphone{+55 71 996964654} % Phone number
-\cvsite{https://www.linkedin.com/in/ marcus-vintem/} % Personal website
+
+\cvaddress{Bahia, Brasil} % Short address/location
+
+\cvnumberphone{+55 71 9 9696-4654} % Phone number
+
+\cvgithub{https://github.com/marcusmello/} %Github
+
+\cvgitlab{https://gitlab.com/marcusmello/} %Gitlab
+
+\cvlinkedin{https://www.linkedin.com/in/ marcus-vintem/} % Linkedin
+
+\cvmail{marcus@vintem.tech} % Email
 
 %----------------------------------------------------------------------------------------
-
+\hyphenation{ca-rac-te-rís-ti-ca}
+\hyphenation{Boot-strap}
+\hyphenation{Back-end}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -47,30 +62,31 @@
 
 \aboutme{
 \newline
-Alta capacidade de mudança e adaptação: após lecionar durante 15 anos, troquei as salas de aula
-pelos códigos de computador. No início de  2018 comecei, com 3 amigos, a desenvolver um
-\textit{tradingbot}, que opera cripto moedas. Desde então, além de
-manter este software, venho aprendendo mais programação, gerindo o ciclo
-completo, desde o design e desenvolvimento à implantação, operação
-e gerenciamento de aplicações.}
+Alta capacidade de mudança e adaptação: troquei 15 anos de ensino de
+física pelos códigos de computador. No início de  2018 comecei, com 3
+amigos, a desenvolver um \textit{tradingbot}, que opera cripto moedas.
+Desde então, além de manter este software, venho aprendendo mais
+programação, gerenciando o ciclo completo, desde o design e
+desenvolvimento à implantação, operação e manutenção de softwares.
+}
 
 %----------------------------------------------------------------------------------------
 %	 SKILLS
 %----------------------------------------------------------------------------------------
 
-% Skill bar section, each skill must have a value between 0 an 6 (float)
+% Skill bar section, each skill must have a value between 0 an 5 (float)
 \skills{{Python/3.5},
 {Git/3.2},
 {FastApi/3.0},
 {Bootstrap/2.5},
-{SQL and NoSQL/2.0},
+{SQL \& NoSQL/2.0},
 {Docker/2.0},
 {Gitlab-ci/2.0},
 {AWS/2.0}}
 
 %------------------------------------------------
 
-% Skill text section, each skill must have a value between 0 an 6
+% Skill text section, each skill must have a value between 0 an 5
 % \skillstext{{Testing/3.50},{Azure Devops/3}}
 
 %----------------------------------------------------------------------------------------
@@ -82,34 +98,38 @@ e gerenciamento de aplicações.}
 %----------------------------------------------------------------------------------------
 
 \section{Experiência}
-
+\vspace{-0.15cm}
 \begin{twenty} % Environment for a list with descriptions
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 	
-	\twentyitem{Desde 2018}{Vintem Tech}{co-fundador}{
-		Iniciei como SysAdmin, sendo responsável por implantar e gerir
-		uma aplicação de tradingbot na AWS. Com o passar dos meses,
-		assumi todas as demais etapas do ciclo de desenvolvimento deste
-		e de outros softwares, atuando principalmente como desenvolvedor
-		\textit{Backend}, mas também \textit{Frontend},
-		\textit{DevSecOps} e gerente de projeto
+	\twentyitem{2018 - Atual}{Vintem Tech}{co-fundador}{
+		Fui responsável por implantar e gerir uma aplicação de
+		tradingbot (Python) na AWS; também fazia algum \textit{code
+		review}. Com o passar dos meses, assumi todas as demais etapas
+		do ciclo de desenvolvimento deste e de outros softwares, atuando
+		principalmente como desenvolvedor \textit{Backend}, mas também
+		\textit{Frontend}, \textit{DevSecOps} e gerente de projeto
 		}
 
 	\twentyitem{2016 - 2018}{Lust Clube}{co-fundador}{
-		Atuando como sócio admistrador, gerenciei a concepção e o
-		desenvolvimento de uma rede social voltada para encontros
-		adultos. Infelizmente, o produto precisou ser descontinuado
+		Gerenciei a concepção e o desenvolvimento de uma rede social
+		voltada para encontros adultos. O  desenvolvimento do sistema
+		(Django + Bootstrap) foi terceirizado; porém, em 2017, comecei a
+		estudar Python, Django e AWS a fim de mantê-lo
 		}
 
 	\twentyitem{2014 - 2016}{UFBA}{Professor}{
-		Lecionei Física Teórica (principalmente eletromagnetismo, ondas,
-		oscilações e termodinâmica) durante 4 semestres, tendo
-		contribuido com a formação de centenas de engenheiros
+		Lecionei Física Teórica (principalmente ondas, oscilações,
+		mecânica de fluidos e termodinâmica) durante 4 semestres, para
+		turmas de ciências exatas tendo contribuido com a formação de
+		centenas de engenheiros e outros cientistas
 		}
-	\twentyitem{2002 - 2016}{UFBA - SENAI - ISBA}{Professor}{
-		Durante 15 anos (logo após ter finalizado o ensino médio) ensinei
-		em escolas, cursos pré-vestibulares, na UFBA (4 semestres entre 2010
-		e 2012), ajudando o desenvolvimento de alguns milhares de estudantes
+	\twentyitem{2002 - 2014}{UFBA - SENAI - ISBA}{Professor}{
+		Ministrei aulas de física em cursos pré-vestibulares e escolas
+		de nível médio na Bahia (capital e interior). Entre 2010 e 2012
+		ensinei Física Teórica (principalmente eletromagnetismo) para
+		turmas de engenharia na UFBA. Levando em conta todo o período,
+		ajudei no desenvolvimento de milhares de estudantes
 		}
 
 \end{twenty}
@@ -119,41 +139,47 @@ e gerenciamento de aplicações.}
 %----------------------------------------------------------------------------------------
 
 \section{Interesses}
-
-Desenvolvimento e arquitetura de softwares escaláveis, infraestrutura
-como código (IaC), criação de APIs, integração e entrega contínuas,
-observabilidade, boas práticas de programação, clean code e clean
-architecture, DDD.
+\vspace{-0.15cm}
+\begin{adjustwidth}{0.5em}{0.0em}
+	Desenvolvimento e arquitetura de softwares escaláveis, infraestrutura
+	como código (IaC), criação de APIs, integração e entrega contínuas,
+	observabilidade, boas práticas de programação, clean code e clean
+	architecture, DDD, TDD.
+\end{adjustwidth}
+\vspace{0.3cm}
 
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
 %----------------------------------------------------------------------------------------
 
 \section{Formação}
-
+\vspace{-0.15cm}
 \begin{twenty} % Environment for a list with descriptions
 
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 	
-	\twentyitem{2016-Atual}{Formação Autodidata}{extensão}{
+	\twentyitem{2016 - Atual}{Formação Autodidata}{extensão}{
 		Aprofundei meus conhecimentos em programação utilizando-me da
-		metodologia "PBL" (\textit{Problem Based Learning}). Neste
-		processo tive a oportunidade de aprender algumas tecnologias
-		como: AWS, Docker, Git, Bootstrap, SQL, FastAPI, etc.}
-	
-	\twentyitem{2013-2015}{Universidade Federal da Bahia}{Mestrado}{
-		Mestrado em Geofísica Aplicada: pesquisa baseada em modelagem
-		numérica computacional, aplicada à indústria de petróleo. Este
-		trabalho foi altamente fundamentado em programação
-		(majoritariamente, \textit{Fortran})
+		metodologia "PBL" (\textit{Problem Based Learning}), buscando
+		aprender, em níveis variados: Python, \textit{OOD}, padrões de
+		projeto, algumas arquiteturas de sistemas, AWS, Docker, Git,
+		Bootstrap, SQL, FastAPI, etc.
 		}
 	
-	\twentyitem{2006-2009}{Universidade Federal da Bahia}{Graduação}{
-		Graduação em Física: o curso de Física  me proveu uma sólida
-		base matemática; além disso, despertou meu interesse por
-		programação pois, em pelo menos 3 disciplinas, realizei algumas
-		modelagens matemáticas, utilizando majoritariamente
-		\textit{Fortran}
+	\twentyitem{2013 - 2015}{Universidade Federal da Bahia}{Mestrado}{
+		Mestrado em Geofísica Aplicada, durante o qual desenvolvi
+		modelagens direta e inversa de campos de velocidades sísimicas,
+		utilizando uma parametrização baseada em \textit{wavelets}. Este
+		trabalho foi altamente fundamentado em programação
+		(\textit{Fortran90}, \textit{Octave}, \textit{Gnuplot},
+		\textit{LaTeX})
+		}
+	
+	\twentyitem{2006 - 2009}{Universidade Federal da Bahia}{Graduação}{
+		Graduação em Física, que  me proveu uma sólida base matemática;
+		além disso, despertou meu interesse por programação pois tive a
+		oportunidade de implementar algumas modelagens numéricas,
+		utiliando \textit{Fortran77}
 		}
 
 \end{twenty}
@@ -163,7 +189,7 @@ architecture, DDD.
 %----------------------------------------------------------------------------------------
 
 \section{Projetos Publicados}
-
+\vspace{-0.15cm}
 \begin{twentyshort} % Environment for a short list with no descriptions
 
 	%\twentyitemshort{<dates>}{<title/description>}
@@ -172,7 +198,7 @@ architecture, DDD.
 		Loro}: \textit{Chatbot} para \textit{whatsapp}}
 	
 	\twentyitemshort{2020}{\href{https://github.com/marcusmello/ftx-telegram-rss}{
-		ftx-telegram-rss}: Monitoramento (mercado futuros) da \textit{exchange} FTX}
+		ftx-telegram-rss}: Monitoramento (mercados futuros) da \textit{exchange} FTX}
 	
 	\twentyitemshort{2019}{\href{https://github.com/vintem-backup/anansi}{
 		Anansi}: \textit{Tradingbot} para cripto moedas}
@@ -181,22 +207,21 @@ architecture, DDD.
 		Dissertação de Mestrado}}
 
 \end{twentyshort}
-
+\vspace{0.3cm}
 %----------------------------------------------------------------------------------------
 %	 OTHER INFORMATION
 %----------------------------------------------------------------------------------------
 
 \section{Outras Informações}
-
-Graças à formação autodidata, trago uma série de débitos técnicos, os
-quais espero sanar ou reduzir ao longo do tempo, trabalhando em equipe
-ao lado de pessoas talentosas. Os anos como professor e a experiência na
-pós-graduação me conferiram a habilidade de lidar com tipos variados de
-pessoas, adaptando-me a elas; acredito que esta característica seja
-desejável no trabalho em equipe. Quando não estou programando ou
-estudando algo relacionado à tecnologia, gosto de fazer trilhas, ir à
-praia, conhecer lugares e pessoas novas, ouvir música e estudar
-filosofia.
+\vspace{-0.2cm}
+\begin{adjustwidth}{0.5em}{0.0em}
+	Graças às experiências de ensino e pós-graduação, tenho boa capacidade
+	de comunicação, além de saber lidar com tipos variados de pessoas,
+	adaptando-me a elas. Acredito que estas são característica desejáveis no
+	trabalho em equipe. Meus \textit{hobbies} incluem: fazer trilhas, ir à
+	praia, conhecer lugares e pessoas novas, ouvir música, ler um bom livro,
+	estudar filosofia ou fazer algum trabalho manual, como marcenaria.
+\end{adjustwidth}
 
 %----------------------------------------------------------------------------------------
 %	 SECOND PAGE EXAMPLE
