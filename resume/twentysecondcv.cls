@@ -32,6 +32,7 @@
 \RequirePackage{pgffor}
 \RequirePackage{marvosym}
 \RequirePackage{parskip}
+\RequirePackage{fontawesome5}
 
 %%%%%%%%%%%
 % OPTIONS %
@@ -106,7 +107,9 @@
 \newcommand{\cvmail}[1]{\renewcommand{\givencvmail}{#1}}                % mail
 \newcommand{\cvnumberphone}[1]{\renewcommand{\givennumberphone}{#1}}    % phone
 \newcommand{\cvaddress}[1]{\renewcommand{\givencvaddress}{#1}}          % address
-\newcommand{\cvsite}[1]{\renewcommand{\givencvsite}{#1}}                % site
+\newcommand{\cvgithub}[1]{\renewcommand{\givencvgithub}{#1}}            % github 
+\newcommand{\cvgitlab}[1]{\renewcommand{\givencvgitlab}{#1}}            % gitlab
+\newcommand{\cvlinkedin}[1]{\renewcommand{\givencvlinkedin}{#1}}        % linkedin           
 \newcommand{\aboutme}[1]{\renewcommand{\givenaboutme}{  \justifying#1}} % about me
 \newcommand{\profilepic}[1]{\renewcommand{\givenprofilepic}{#1}}        % picture
 \newcommand{\cvname}[1]{\renewcommand{\givencvname}{#1}}                % name
@@ -119,7 +122,9 @@
 \newcommand{\givencvaddress}{}       % address
 \newcommand{\givenaboutme}{}         % about me
 \newcommand{\givenprofilepic}{}      % picture
-\newcommand{\givencvsite}{}          % site
+\newcommand{\givencvgithub}{}        % github
+\newcommand{\givencvgitlab}{}        % gitlab
+\newcommand{\givencvlinkedin}{}      % linkedin
 \newcommand{\givencvjobtitle}{}      % job title
 
 % icon in blue circle; #1 -> icon
@@ -130,7 +135,7 @@
 % Text in square node with rounded corners; #1 -> text, #2 -> color
 \newcommand*\round[2]{%
 \tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle,
-  rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=3.6mm,
+  rounded corners, inner sep=2.6pt, minimum size=5.5mm, text height=3.6mm,
   fill=#2,#2,text=white](char){#1};%
 }
 
@@ -181,42 +186,64 @@
       \node [rectangle, fill=asidecolor, anchor=north, minimum width=9.90cm, minimum height=\paperheight+1cm] (box) at (-5cm,0.5cm){};
   \end{tikzpicture}
 
-  \begin{textblock}{6}(0.5, 0.2)
+  \begin{textblock}{6}(0.5, 0.1)
     \begin{flushleft}
       \hspace{13pt}
 
       % profile picture
+      \begin{center}
+      \vspace{-0.25cm}
       \ifthenelse{\equal{\givenprofilepic}{}}{}{\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-          \clip (600/2, 567/2) circle (567/2);
-          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{\givenprofilepic}};
+          \clip (500/2, 500/2) circle (500/2);
+          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (-65,-90) {\includegraphics[width=\imagewidth]{\givenprofilepic}};
       \end{tikzpicture}}
+    \end{center}
 
       % name
-      {\Huge\color{mainblue}\givencvname}
+      {\huge\color{mainblue}\givencvname}
 
       % jobtitle
-      \begin{flushright}
-        {\Large\color{black!80}\givencvjobtitle}
-      \end{flushright}
+      \vspace{0.15cm}
+      \begin{flushleft}
+        {\large\color{black!80}\givencvjobtitle}
+      \end{flushleft}
       \renewcommand{\arraystretch}{1.6}
 
       % table with icons 
       \begin{tabular}{c @{\hskip 0.2cm} p{5cm}}
+
         % CV date
-        \ifthenelse{\equal{\givencvdate}{}}{}{\textsc{\Large\icon{\Info}} & \givencvdate\\}
+        \vspace{0.05cm}
+        \ifthenelse{\equal{\givencvdate}{}}{}{\textsc{\large\icon{\faIcon{calendar-alt}}} & \givencvdate\\}
+  
         % CV address
-        \ifthenelse{\equal{\givencvaddress}{}}{}{\textsc{\Large\icon{\Letter}} & \givencvaddress\\}
+        \vspace{0.05cm}
+        \ifthenelse{\equal{\givencvaddress}{}}{}{\textsc{\large\icon{\faIcon{map-marker-alt}}} & \givencvaddress\\}
+
         % CV phone
-        \ifthenelse{\equal{\givennumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \givennumberphone\\}
-        % CV site
-        \ifthenelse{\equal{\givencvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \givencvsite\\}
+        \vspace{0.05cm}
+        \ifthenelse{\equal{\givennumberphone}{}}{}{\textsc{\large\icon{\faIcon{phone-square-alt}}} & \givennumberphone\\}
+
+        % CV github
+        \vspace{0.05cm}
+        \ifthenelse{\equal{\givencvgithub}{}}{}{\textsc{\large\icon{\faIcon{github}}} & \givencvgithub\\}
+
+        % CV gitlab
+        \vspace{0.05cm}
+        \ifthenelse{\equal{\givencvgitlab}{}}{}{\textsc{\large\icon{\faIcon{gitlab}}} & \givencvgitlab\\}
+
+        % CV linkedin
+        \ifthenelse{\equal{\givencvlinkedin}{}}{}{\textsc{\large\icon{\faIcon{linkedin}}} & \givencvlinkedin\\}
+
         % CV mail
-        \ifthenelse{\equal{\givencvmail}{}}{}{\textsc{\large\icon{@}} & \givencvmail}
+        \ifthenelse{\equal{\givencvmail}{}}{}{\textsc{\large\icon{\faIcon{envelope}}} & \givencvmail}
       
     \end{tabular}
 
       % about me text
+      \vspace{-0.25cm}
       \profilesection{Sobre mim}{2.8cm}
+      \vspace{-0.25cm}
       \givenaboutme
 
       % skills with scale
@@ -230,7 +257,7 @@
       % (*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
       \newline
       \newline
-      (*)[A escala vai de 0 (Desconhecimento) a 5 (\textit{Expert}).]
+      * A escala vai de 0 (Desconhecimento) a 5 (\textit{Expert}).
 
     \end{flushleft}
   \end{textblock}
@@ -336,7 +363,7 @@
 }
 \renewcommand{\bfseries}{\color{headercolor}}
 \newcommand{\twentyitemshorticon}[3]{%
-  \hspace{3pt}\faicon{#1}\hspace{3pt}#2&
+  \hspace{3pt}\faicon{#1}\hspace{30pt}#2&
       \parbox[t]{11.5cm}{%
     \textbf{#3}%
   }\\%
