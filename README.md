@@ -11,18 +11,18 @@ In 2013 the digital nomadism "philosophy" came to me, since then I've
 tried to study more programming in order to achieve that such lifestyle.
 In 2016, I decided to dedicate myself fully to this.
 
-
-- 🎓 &nbsp; Graduated in **PHYSICS** by  <a
+- &#127891; Masters in **APPLIED GEOPHYSICS** by <a
   href="https://www.ufba.br">UFBA</a>.
-- 🎓 &nbsp; Masters in **APPLIED GEOPHYSICS** by <a
+- &#127891; Graduated in **PHYSICS** by  <a
   href="https://www.ufba.br">UFBA</a>.
 - &#128218; Former physics teacher
 - &#129300; Exploring new technologies and developing software
   solutions.
-- 💼 &nbsp; Working as **FULL CYCLE DEVELOPER** at <a
+- &#128188; Working as **FULL CYCLE DEVELOPER** at <a
   href="https://vintem.tech">VINTEM.TECH</a>
-- 🌱 &nbsp; Learning more about **UI/UX, DATA SCIENCE**.
-  <h3> :rocket: &nbsp;Hard Skills </h3>
+- &#128222; Learning more about **UI/UX, DATA SCIENCE**.
+
+<h3> &#128204; Hard Skills </h3>
 
 ### OS
 
