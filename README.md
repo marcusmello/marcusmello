@@ -20,7 +20,7 @@ In 2016, I decided to dedicate myself fully to this.
   solutions.
 - &#128188; Working as **FULL CYCLE DEVELOPER** at <a
   href="https://vintem.tech">VINTEM.TECH</a>
-- &#128222; Learning more about **UI/UX, DATA SCIENCE**.
+- &#128221; Learning more about **UI, infrastructure, software architecture, data science and so on**.
 
 <h3> &#128204; Hard Skills </h3>
 
