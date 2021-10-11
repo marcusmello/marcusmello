@@ -70,7 +70,7 @@ In 2016, I decided to dedicate myself fully to this.
   ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
   ![Ngrok](https://img.shields.io/badge/ngrok-%23323330.svg?style=for-the-badge&logo=ngrok&logoColor=white)
 
-### Frontend and UI/UX
+### Frontend/UI
 
   ![Bootstrap](https://img.shields.io/badge/bootstrap5-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
   ![Jinja](https://img.shields.io/badge/Jinja3-%23323330.svg?style=for-the-badge&logo=jinja&logoColor=white)
