@@ -4,16 +4,15 @@
 <h3> :man: &nbsp;About me </h3>
 
 I worked as a [physics teacher](http://lattes.cnpq.br/9425842244368151)
-for 15 years, since 2002. Both during the college and master degree
-course, I had contact with programming (mostly Fortran).
+for 15 years, since 2002. Both during college and master degree, I was in contact with scientific programming (mostly Fortran).
 
-In 2013 the digital nomadism "philosophy" came to me, since then I've
-tried to study more programming in order to achieve that such lifestyle.
-In 2016, I decided to dedicate myself fully to this.
+In 2013, the digital nomadism "philosophy" came to me. Since then, I've
+tried to study more programming in order to achieve that lifestyle.
+In 2016, I decided to dedicate myself full-time to this.
 
-- &#127891; Masters in **APPLIED GEOPHYSICS** by <a
+- &#127891; Masters in **APPLIED GEOPHYSICS** from <a
   href="https://www.ufba.br">UFBA</a>.
-- &#127891; Graduated in **PHYSICS** by  <a
+- &#127891; Graduated in **PHYSICS** from  <a
   href="https://www.ufba.br">UFBA</a>.
 - &#128218; Former physics teacher
 - &#129300; Exploring new technologies and developing software
