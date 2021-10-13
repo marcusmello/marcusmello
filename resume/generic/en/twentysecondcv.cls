@@ -242,7 +242,7 @@
 
       % about me text
       \vspace{-0.25cm}
-      \profilesection{Sobre mim}{2.8cm}
+      \profilesection{About me}{2.8cm}
       \vspace{-0.25cm}
       \givenaboutme
 
@@ -257,7 +257,8 @@
       % (*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
       \newline
       \newline
-      * A escala vai de 0 (Desconhecimento) a 5 (\textit{Expert}).
+      % * A escala vai de 0 (Desconhecimento) a 5 (\textit{Expert}).
+      * Skill scale goes from 0 (ignorance) to 5 (expert)
 
     \end{flushleft}
   \end{textblock}
